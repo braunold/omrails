@@ -1,0 +1,7 @@
+# One Month Rails
+
+This is the sample applicaiton for
+[*One Month Rails: Teach Yourself to Code*](http://onemonthrails.com)
+
+course by Mattan Giffel
+student [Joel Braunold](http://braunold.wordpress.com)
