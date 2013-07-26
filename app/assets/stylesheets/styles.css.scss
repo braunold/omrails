@@ -1,0 +1,30 @@
+$baseFontFamily: Rum Raisin;
+@import url(http://fonts.googleapis.com/css?family=Rum+Raisin);
+
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+$navbarLinkBackgroundHover: gray;
+$navbarLinkColorHover: transparent;
+
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+
+.footer {
+	margin-top: 50px;
+	color: $gray;
+	a {
+		color: $gray;
+	}
+}
