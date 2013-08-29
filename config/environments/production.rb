@@ -66,7 +66,7 @@ Omrails::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   ## In production, :host should be set to the actual host of your application.
-  config.action_mailer.default_url_options = { :host => 'http://agile-woodland-3702.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
 ##AM3
   config.paperclip_defaults = {
@@ -77,8 +77,5 @@ Omrails::Application.configure do
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
   }
-
-end
-
-
+  
 end
