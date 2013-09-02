@@ -2,7 +2,6 @@
   <%= f.error_notification %>
   <%= f.full_error :image_file_size, class: "alert alert-error" %>
   <%= f.full_error :image_content_type, class: "alert alert-error" %>
-
   <%= f.input :image, label: "Pick your image" %>
   <%= f.input :image_remote_url, label: "Or enter a URL" %>
   <%= f.input :description, as: :text, input_html: { rows: "3" } %>
